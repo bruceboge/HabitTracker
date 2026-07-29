@@ -1,0 +1,86 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.habittracker.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.habittracker.app"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // Supabase config — replace with your project values
+        buildConfigField "String", "SUPABASE_URL", "\"https://blzzsoetposaskueykry.supabase.co\""
+        buildConfigField "String", "SUPABASE_ANON_KEY", "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJsenpzb2V0cG9zYXNrdWV5a3J5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODUzMTM1MDYsImV4cCI6MjEwMDg4OTUwNn0.fEV2BaT5wEgLq0hTnH08pOaU8jkKxtd6Ci0YI1ZXGaQ\""
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildFeatures {
+        viewBinding true
+        buildConfig true
+    }
+}
+
+dependencies {
+    // Room (local database)
+    implementation "androidx.room:room-runtime:2.6.1"
+    annotationProcessor "androidx.room:room-compiler:2.6.1"
+
+    // Retrofit + OkHttp (Supabase REST API)
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+    implementation "com.squareup.okhttp3:okhttp:4.12.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.12.0"
+
+    // WorkManager (background sync)
+    implementation "androidx.work:work-runtime:2.9.0"
+
+    // Security (encrypted token storage)
+    implementation "androidx.security:security-crypto:1.1.0-alpha06"
+
+    // Material Design 3
+    implementation "com.google.android.material:material:1.12.0"
+
+    // Lifecycle + ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel:2.7.0"
+    implementation "androidx.lifecycle:lifecycle-livedata:2.7.0"
+
+    // Navigation Component
+    implementation "androidx.navigation:navigation-fragment:2.7.7"
+    implementation "androidx.navigation:navigation-ui:2.7.7"
+
+    // MPAndroidChart (stats graphs)
+    implementation "com.github.PhilJay:MPAndroidChart:v3.1.0"
+
+    // Gson
+    implementation "com.google.code.gson:gson:2.10.1"
+
+    // AndroidX Core
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "androidx.core:core:1.12.0"
+    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    implementation "androidx.cardview:cardview:1.0.0"
+
+    // Testing
+    testImplementation "junit:junit:4.13.2"
+    androidTestImplementation "androidx.test.ext:junit:1.1.5"
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.5.1"
+}

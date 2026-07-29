@@ -1,0 +1,4 @@
+- `[x]` Update `SupabaseClient.java` headers and URL
+- `[x]` Enhance `AuthRepository.java` logging
+- `[x]` Verify with clean build and deploy
+- `[x]` Check Logcat for detailed error bodies

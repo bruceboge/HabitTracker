@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HabitTracker</string>
+
+    <!-- Auth -->
+    <string name="welcome_title">Build Better Habits</string>
+    <string name="welcome_subtitle">An adaptive coach that grows with you</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Display Name</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Create Account</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="sign_out">Sign Out</string>
+
+    <!-- Home -->
+    <string name="today_progress">Today: %1$d of %2$d habits done</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="no_habits_title">No habits yet</string>
+    <string name="no_habits_subtitle">Tap + to create your first habit</string>
+
+    <!-- Habit Card -->
+    <string name="done">Done</string>
+    <string name="mark_done">Mark Done</string>
+    <string name="streak_days">🔥 %1$d day streak</string>
+    <string name="level_label">Level: %1$s</string>
+
+    <!-- Create/Edit Habit -->
+    <string name="create_habit">Create Habit</string>
+    <string name="edit_habit">Edit Habit</string>
+    <string name="habit_name_hint">Habit name</string>
+    <string name="choose_icon">Choose Icon</string>
+    <string name="choose_color">Choose Color</string>
+    <string name="cadence">Frequency</string>
+    <string name="cadence_daily">Daily</string>
+    <string name="cadence_weekdays">Weekdays</string>
+    <string name="cadence_custom">Custom</string>
+    <string name="difficulty_tiny_hint">Tiny version (e.g., 1 page)</string>
+    <string name="difficulty_normal_hint">Normal version (e.g., 15 pages)</string>
+    <string name="difficulty_stretch_hint">Stretch version (e.g., 1 chapter)</string>
+    <string name="save">Save</string>
+
+    <!-- Check-in -->
+    <string name="todays_target">Today\'s target: %1$s</string>
+    <string name="how_did_it_go">How did it go?</string>
+    <string name="effort_hard">😫 Hard</string>
+    <string name="effort_ok">😐 OK</string>
+    <string name="effort_easy">😊 Easy</string>
+    <string name="mark_complete">✅  Mark Complete</string>
+    <string name="skip_today">⏭️  Skip Today</string>
+
+    <!-- Completion feedback -->
+    <string name="great_job">Great job! +%1$d points</string>
+    <string name="restart_win">🎯 Welcome back! That took courage. +%1$d points</string>
+    <string name="difficulty_up">📈 You leveled up! Tomorrow\'s challenge grows.</string>
+    <string name="streak_milestone">🔥 %1$d day streak — your longest yet!</string>
+
+    <!-- Detail -->
+    <string name="current_streak">Current Streak</string>
+    <string name="best_streak">Best Streak</string>
+    <string name="total_completions">Total</string>
+    <string name="current_difficulty">Difficulty</string>
+    <string name="why_this_difficulty">Why this difficulty?</string>
+    <string name="archive_habit">Archive</string>
+    <string name="delete_habit">Delete</string>
+    <string name="confirm_delete">Are you sure? This will delete all data for this habit.</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="account">Account</string>
+    <string name="notifications">Notifications</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="export_data">Export Data</string>
+    <string name="about">About</string>
+    <string name="version">Version %1$s</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Signup prompt (delayed signup) -->
+    <string name="signup_prompt_title">Protect your progress</string>
+    <string name="signup_prompt_message">You\'ve been building habits for %1$d days! Create an account to back up your data and sync across devices.</string>
+
+    <!-- Days of week (short) -->
+    <string name="mon">M</string>
+    <string name="tue">T</string>
+    <string name="wed">W</string>
+    <string name="thu">T</string>
+    <string name="fri">F</string>
+    <string name="sat">S</string>
+    <string name="sun">S</string>
+</resources>

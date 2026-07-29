@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base dark theme palette -->
+    <color name="background_primary">#FF0D0D0D</color>
+    <color name="background_secondary">#FF1A1A2E</color>
+    <color name="background_card">#FF16213E</color>
+    <color name="background_input">#FF1E2D4A</color>
+
+    <!-- Surface colors -->
+    <color name="surface_elevated">#FF1F2937</color>
+    <color name="surface_overlay">#CC000000</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#FFF8F9FA</color>
+    <color name="text_secondary">#FFB0B3B8</color>
+    <color name="text_hint">#FF6B7280</color>
+    <color name="text_on_accent">#FF000000</color>
+
+    <!-- Accent / Primary -->
+    <color name="accent_primary">#FF7C4DFF</color>
+    <color name="accent_primary_light">#FFB388FF</color>
+    <color name="accent_secondary">#FF4CAF50</color>
+
+    <!-- Status colors -->
+    <color name="status_success">#FF4CAF50</color>
+    <color name="status_warning">#FFFFC107</color>
+    <color name="status_error">#FFFF5252</color>
+
+    <!-- Habit color palette (matches Constants.HABIT_COLORS) -->
+    <color name="habit_green">#FF4CAF50</color>
+    <color name="habit_purple">#FF7C4DFF</color>
+    <color name="habit_red">#FFFF5252</color>
+    <color name="habit_orange">#FFFF9800</color>
+    <color name="habit_blue">#FF2196F3</color>
+    <color name="habit_teal">#FF00BCD4</color>
+    <color name="habit_pink">#FFE91E63</color>
+    <color name="habit_amber">#FFFFC107</color>
+
+    <!-- Effort tag colors -->
+    <color name="effort_hard">#33FF5252</color>
+    <color name="effort_ok">#33FFC107</color>
+    <color name="effort_easy">#334CAF50</color>
+
+    <!-- Bottom nav -->
+    <color name="nav_active">#FF7C4DFF</color>
+    <color name="nav_inactive">#FF6B7280</color>
+
+    <!-- Gradient start/end for premium backgrounds -->
+    <color name="gradient_start">#FF0D0D0D</color>
+    <color name="gradient_end">#FF1A1A2E</color>
+</resources>
