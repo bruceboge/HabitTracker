@@ -34,12 +34,15 @@ It combines a local-first experience with optional cloud sync through Supabase, 
 ## 🖼️ Screenshots
 
 <div align="center">
-  <img src="images/screenshot-home.svg" alt="Home screen preview" width="250" />
-  <img src="images/screenshot-create-habit.svg" alt="Create habit preview" width="250" />
-  <img src="images/screenshot-details.svg" alt="Habit details preview" width="250" />
+  <img src="images/Screenshot_20260729-231244.png" alt="Home screen preview" width="250" />
+  <img src="images/Screenshot_20260729-231248.png" alt="Create habit preview" width="250" />
+  <img src="images/Screenshot_20260729-231305.png" alt="Habit details preview" width="250" />
 </div>
 
-> These images are currently lightweight SVG placeholders and can be replaced with real app screenshots later.
+<div align="center" style="margin-top: 12px;">
+  <img src="images/Screenshot_20260729-231310.png" alt="Progress overview preview" width="250" />
+  <img src="images/Screenshot_20260729-231313.png" alt="Additional app preview" width="250" />
+</div>
 
 ## 🛠️ Tech stack
 - Android app built with Java
