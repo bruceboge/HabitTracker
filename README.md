@@ -34,14 +34,14 @@ It combines a local-first experience with optional cloud sync through Supabase, 
 ## 🖼️ Screenshots
 
 <div align="center">
-  <img src="images/Screenshot_20260729-231244.png" alt="Home screen preview" width="250" />
-  <img src="images/Screenshot_20260729-231248.png" alt="Create habit preview" width="250" />
-  <img src="images/Screenshot_20260729-231305.png" alt="Habit details preview" width="250" />
+  <img src="Images/Screenshot_20260729-231244.png" alt="Home screen preview" width="250" />
+  <img src="Images/Screenshot_20260729-231248.png" alt="Create habit preview" width="250" />
+  <img src="Images/Screenshot_20260729-231305.png" alt="Habit details preview" width="250" />
 </div>
 
 <div align="center" style="margin-top: 12px;">
-  <img src="images/Screenshot_20260729-231310.png" alt="Progress overview preview" width="250" />
-  <img src="images/Screenshot_20260729-231313.png" alt="Additional app preview" width="250" />
+  <img src="Images/Screenshot_20260729-231310.png" alt="Progress overview preview" width="250" />
+  <img src="Images/Screenshot_20260729-231313.png" alt="Additional app preview" width="250" />
 </div>
 
 ## 🛠️ Tech stack
